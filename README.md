@@ -27,18 +27,19 @@ Your controller should accept a cashier's report and select a winner.
 The report is passed to your controller in a JSON format:
 ```json5
 [
-	{
-		"id": {uniqueParticipantIdentifier},   	// an integer value
-		"tickets": {numberOfTickets}		//an integer value
-	},{
-		"id": "{uniqueParticipantIdentifier}",
-		"tickets": "{numberOfTickets}"
-	},
+    {
+        "id": {uniqueParticipantIdentifier},   	// an integer value
+        "tickets": {numberOfTickets}		// an integer value
+    },
+    {
+        "id": "{uniqueParticipantIdentifier}",
+        "tickets": "{numberOfTickets}"
+    },
 	...
 ]
 ```
 
-A controller should return a response in the following format:
+Your endpoint should return a response in the following format:
 
 ```json5
 {
