@@ -1,7 +1,7 @@
 # Introduction
 During a 60-minute session, you have to demonstrate your coding skills.
 You'll get two tasks:
-1. C# algorithmic task (~40 minutes)
+1. C# algorithmic task (~40 minutes).
 2. SQL task (~20 minutes).
 
 # Prerequisites
