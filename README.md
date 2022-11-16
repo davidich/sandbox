@@ -13,29 +13,38 @@ You'll get two tasks:
 
 # Task 1: Implement an algorithm in C#
 You'll have to program a raffle game.
+
 Game rules:
-a cashier has an unlimited number of tickets and when he sells a ticket, he records the name of the person who purchased a ticket; 
-when all the tickets are sold, a cashier counts the number of tickets each participant has and prepares a result report in the following format:
-participant #1: 8 tickets
-participant #2: 15 tickets
-participant #3: 1 ticket
-etc
+- a cashier has an unlimited number of tickets and when he sells a ticket, he records the name of the person who purchased the ticket; 
+- when all the tickets are sold, a cashier counts the number of tickets each participant has and prepares a result report in the following format:
+  - participant #1: 8 tickets
+  - participant #2: 15 tickets
+  - participant #3: 1 ticket
+  - etc
+
+
 Your controller should accept a cashier's report and select a winner.
 The report is passed to your controller in a JSON format:
+```json5
 [
 	{
-		"id": {uniqueParticipantIdentifier},   // an integer value
-		"tickets": {numberOfTickets}	//an integer value
+		"id": {uniqueParticipantIdentifier},   	// an integer value
+		"tickets": {numberOfTickets}		//an integer value
 	},{
-		"id": {uniqueParticipantIdentifier},
-		"tickets": {numberOfTickets}
+		"id": "{uniqueParticipantIdentifier}",
+		"tickets": "{numberOfTickets}"
 	},
 	...
 ]
+```
+
 A controller should return a response in the following format:
+
+```json5
 {
 	"winnerId": {uniqueParticipantIdentifier}
 }
+```
 
 Create an ASP.NET Core project with a Web API controller that can select a winner.
 
