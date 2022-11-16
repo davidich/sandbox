@@ -58,10 +58,10 @@ _Player table:_
 - TeamId: specifies a player's team (a foreign key).
 - Name: player's name.
 - Age: player's age.
-- PointPrice: an amount of money a player paid for each point they score
+- PointPrice: an amount of money a player paid for each point they score.
 
 _PointStatistic table:_
-- Id: a unique identifier of an entry
+- Id: a unique identifier of an entry.
 - PlayerId: specifies a player (a foreign key).
 - Points: the number of points a player scored in a particular game.
 - GameDate: a date when a game took place.
