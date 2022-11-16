@@ -11,7 +11,7 @@ You'll get two tasks:
 - A git client of your choice; you'll have to get this repository to your computer
 
 
-# Task 1: Implement an algorithm using C# skills
+# Task 1: Implement an algorithm in C#
 You'll have to program a raffle game.
 Game rules:
 a cashier has an unlimited number of tickets and when he sells a ticket, he records the name of the person who purchased a ticket; 
