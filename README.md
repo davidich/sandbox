@@ -32,8 +32,8 @@ The report is passed to your controller in a JSON format:
         "tickets": {numberOfTickets}		// an integer value
     },
     {
-        "id": "{uniqueParticipantIdentifier}",
-        "tickets": "{numberOfTickets}"
+        "id": {uniqueParticipantIdentifier},
+        "tickets": {numberOfTickets}
     },
 	...
 ]
