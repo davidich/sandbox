@@ -51,7 +51,7 @@ Create an ASP.NET Core project with a Web API controller that can select a winne
 
 # Task 2: Write SQL queries
 You're given a database with two tables.
-![DB Schema](DB_schema.png)
+![DB Schema](DB_schema_v2.png)
 
 _Player table:_
 - Id: a unique identifier of a player.
@@ -67,7 +67,9 @@ _PointStatistic table:_
 - GameDate: a date when a game took place.
 
 ## Write the following queries:
-1. Based on the statistics for the last 300 days, show the names of the top 5 players who got the highest payouts. Payout=PointPrice*Points.
+1. Based on the statistics for the last 300 days, show IDs and names of the top 5 players who got the highest payouts.
+
+   `Payout = PointPrice * Points`
 
 ![Top 3 players](TopPlayers.png)
 
