@@ -43,7 +43,7 @@ Your endpoint should return a response in the following format:
 
 ```json5
 {
-	"winnerId": {uniqueParticipantIdentifier}
+    "winnerId": {uniqueParticipantIdentifier}
 }
 ```
 
