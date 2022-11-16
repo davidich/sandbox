@@ -5,10 +5,10 @@ You'll get two tasks:
 2. SQL task (~20 minutes).
 
 # Prerequisites
-- An IDE of your choice (Visual Studio, Rider, Notepad++, etc)
-- Access to an MS SQL (local or remote); 
+- An IDE of your choice (Visual Studio, Rider, Notepad++, etc).
+- Access to an MS SQL (local or remote).
 - MS SQL account that allows running DDL scripts (you will need to create two tables and seed some data).
-- A git client of your choice; you'll have to get this repository to your computer
+- A git client of your choice; you'll have to get this repository to your computer.
 
 
 # Task 1: Implement an algorithm in C#
@@ -74,9 +74,9 @@ _PointStatistic table:_
 ![Top 3 players](TopPlayers.png)
 
 
-2. Output team roasters. A roaster is a list of all team players, numbered from 1 up to N. Number order should be defined in ascending order by the player's name.
+2. Output team rosters. A roster is a list of all team players, numbered from 1 up to N. Number order should be defined in ascending order by the player's name.
 
-![Roaster example](Roaster.png)
+![Roster example](Roster_v2.png)
 
 
 3. Improve the previous query so it can define the sort order based on the value of @OrderBy local variable. This variable can have only 'Age' and 'Name' values.
