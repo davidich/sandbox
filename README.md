@@ -23,7 +23,7 @@ Game rules:
   - etc
 
 
-Your controller should accept a cashier's report and select a winner.
+Your endpoint should accept a cashier's report and select a winner.
 The report is passed to your controller in a JSON format:
 ```json5
 [
